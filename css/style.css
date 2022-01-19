@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+#menu form > botton{
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner{
+    max-height: 35rem;
+}
+
+@media (max-widht: 768px){
+    #intro {
+    width: 90% !important;
+    }
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+}
+@media (max-widht: 576px){
+.icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+}
+@media (min-widht: 577px){
+.formu-cv{
+    width: 50% !important;
+    justify-content: center !important;
+}
+}
